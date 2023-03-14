@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="width: auto; height: auto; flex-grow: 1;">
+        <ui:VisualElement style="flex-grow: 1;" />
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:Label text="X: " display-tooltip-when-elided="true" enable-rich-text="false" style="color: rgb(210, 210, 210);" />
+            <ui:Label text="00" display-tooltip-when-elided="true" enable-rich-text="false" name="LabelCoordX" style="width: 20px; color: rgb(210, 210, 210);" />
+            <ui:Label text="Y: " display-tooltip-when-elided="true" style="color: rgb(210, 210, 210); margin-left: 10px;" />
+            <ui:Label text="00" display-tooltip-when-elided="true" name="LabelCoordY" style="color: rgb(210, 210, 210); width: 20px;" />
+            <ui:Label text="Angle: " display-tooltip-when-elided="true" style="color: rgb(210, 210, 210); margin-left: 10px;" />
+            <ui:Label text="000" display-tooltip-when-elided="true" name="LabelAngle" style="color: rgb(210, 210, 210); width: 30px;" />
+            <ui:Label text="Speed: " display-tooltip-when-elided="true" style="color: rgb(210, 210, 210); margin-left: 10px;" />
+            <ui:Label text="00" display-tooltip-when-elided="true" name="LabelSpeed" style="color: rgb(210, 210, 210); width: 20px;" />
+            <ui:Label text="Laser:" display-tooltip-when-elided="true" style="align-items: center; left: auto; position: relative; margin-left: 20%; color: rgb(200, 0, 0);" />
+            <ui:Label text="0" display-tooltip-when-elided="true" name="LabelLaserCharges" style="color: rgb(200, 0, 0); padding-right: 2px;" />
+            <ui:Label text="(" display-tooltip-when-elided="true" style="margin-left: 0; color: rgb(200, 0, 0); width: auto; padding-right: 0; padding-left: 0;" />
+            <ui:Label text="0.0" display-tooltip-when-elided="true" name="LabelLaserCooldown" style="color: rgb(200, 0, 0); padding-left: 0; padding-right: 0;" />
+            <ui:Label text=")" display-tooltip-when-elided="true" style="margin-left: 0; color: rgb(200, 0, 0); width: auto; padding-right: 0; padding-left: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
